@@ -1,0 +1,377 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Copyright (c) NoticeDog 2017.
+  GNU LESSER GENERAL PUBLIC LICENSE
+      Version 3, 29 June 2007
+
+  Copyright (C) 2007 Free Software Foundation, Inc. <http://fsf.org/>
+  Everyone is permitted to copy and distribute verbatim copies
+  of this license document, but changing it is not allowed.
+
+
+  This version of the GNU Lesser General Public License incorporates
+  the terms and conditions of version 3 of the GNU General Public
+  License, supplemented by the additional permissions listed below.
+
+  0. Additional Definitions.
+
+  As used herein, "this License" refers to version 3 of the GNU Lesser
+  General Public License, and the "GNU GPL" refers to version 3 of the GNU
+  General Public License.
+
+  "The Library" refers to a covered work governed by this License,
+  other than an Application or a Combined Work as defined below.
+
+  An "Application" is any work that makes use of an interface provided
+  by the Library, but which is not otherwise based on the Library.
+  Defining a subclass of a class defined by the Library is deemed a mode
+  of using an interface provided by the Library.
+
+  A "Combined Work" is a work produced by combining or linking an
+  Application with the Library.  The particular version of the Library
+  with which the Combined Work was made is also called the "Linked
+  Version".
+
+  The "Minimal Corresponding Source" for a Combined Work means the
+  Corresponding Source for the Combined Work, excluding any source code
+  for portions of the Combined Work that, considered in isolation, are
+  based on the Application, and not on the Linked Version.
+
+  The "Corresponding Application Code" for a Combined Work means the
+  object code and/or source code for the Application, including any data
+  and utility programs needed for reproducing the Combined Work from the
+  Application, but excluding the System Libraries of the Combined Work.
+
+  1. Exception to Section 3 of the GNU GPL.
+
+  You may convey a covered work under sections 3 and 4 of this License
+  without being bound by section 3 of the GNU GPL.
+
+  2. Conveying Modified Versions.
+
+  If you modify a copy of the Library, and, in your modifications, a
+  facility refers to a function or data to be supplied by an Application
+  that uses the facility (other than as an argument passed when the
+  facility is invoked), then you may convey a copy of the modified
+  version:
+
+  a) under this License, provided that you make a good faith effort to
+  ensure that, in the event an Application does not supply the
+  function or data, the facility still operates, and performs
+  whatever part of its purpose remains meaningful, or
+
+  b) under the GNU GPL, with none of the additional permissions of
+  this License applicable to that copy.
+
+  3. Object Code Incorporating Material from Library Header Files.
+
+  The object code form of an Application may incorporate material from
+  a header file that is part of the Library.  You may convey such object
+  code under terms of your choice, provided that, if the incorporated
+  material is not limited to numerical parameters, data structure
+  layouts and accessors, or small macros, inline functions and templates
+  (ten or fewer lines in length), you do both of the following:
+
+  a) Give prominent notice with each copy of the object code that the
+  Library is used in it and that the Library and its use are
+  covered by this License.
+
+  b) Accompany the object code with a copy of the GNU GPL and this license
+  document.
+
+  4. Combined Works.
+
+  You may convey a Combined Work under terms of your choice that,
+  taken together, effectively do not restrict modification of the
+  portions of the Library contained in the Combined Work and reverse
+  engineering for debugging such modifications, if you also do each of
+  the following:
+
+  a) Give prominent notice with each copy of the Combined Work that
+  the Library is used in it and that the Library and its use are
+  covered by this License.
+
+  b) Accompany the Combined Work with a copy of the GNU GPL and this license
+  document.
+
+  c) For a Combined Work that displays copyright notices during
+  execution, include the copyright notice for the Library among
+  these notices, as well as a reference directing the user to the
+  copies of the GNU GPL and this license document.
+
+  d) Do one of the following:
+
+  0) Convey the Minimal Corresponding Source under the terms of this
+  License, and the Corresponding Application Code in a form
+  suitable for, and under terms that permit, the user to
+  recombine or relink the Application with a modified version of
+  the Linked Version to produce a modified Combined Work, in the
+  manner specified by section 6 of the GNU GPL for conveying
+  Corresponding Source.
+
+  1) Use a suitable shared library mechanism for linking with the
+  Library.  A suitable mechanism is one that (a) uses at run time
+  a copy of the Library already present on the user's computer
+  system, and (b) will operate properly with a modified version
+  of the Library that is interface-compatible with the Linked
+  Version.
+
+  e) Provide Installation Information, but only if you would otherwise
+  be required to provide such information under section 6 of the
+  GNU GPL, and only to the extent that such information is
+  necessary to install and execute a modified version of the
+  Combined Work produced by recombining or relinking the
+  Application with a modified version of the Linked Version. (If
+  you use option 4d0, the Installation Information must accompany
+  the Minimal Corresponding Source and Corresponding Application
+  Code. If you use option 4d1, you must provide the Installation
+  Information in the manner specified by section 6 of the GNU GPL
+  for conveying Corresponding Source.)
+
+  5. Combined Libraries.
+
+  You may place library facilities that are a work based on the
+  Library side by side in a single library together with other library
+  facilities that are not Applications and are not covered by this
+  License, and convey such a combined library under terms of your
+  choice, if you do both of the following:
+
+  a) Accompany the combined library with a copy of the same work based
+  on the Library, uncombined with any other library facilities,
+  conveyed under the terms of this License.
+
+  b) Give prominent notice with the combined library that part of it
+  is a work based on the Library, and explaining where to find the
+  accompanying uncombined form of the same work.
+
+  6. Revised Versions of the GNU Lesser General Public License.
+
+  The Free Software Foundation may publish revised and/or new versions
+  of the GNU Lesser General Public License from time to time. Such new
+  versions will be similar in spirit to the present version, but may
+  differ in detail to address new problems or concerns.
+
+  Each version is given a distinguishing version number. If the
+  Library as you received it specifies that a certain numbered version
+  of the GNU Lesser General Public License "or any later version"
+  applies to it, you have the option of following the terms and
+  conditions either of that published version or of any later version
+  published by the Free Software Foundation. If the Library as you
+  received it does not specify a version number of the GNU Lesser
+  General Public License, you may choose any version of the GNU Lesser
+  General Public License ever published by the Free Software Foundation.
+
+  If the Library as you received it specifies that a proxy can decide
+  whether future versions of the GNU Lesser General Public License shall
+  apply, that proxy's public statement of acceptance of any version is
+  permanent authorization for you to choose that version for the
+  Library.
+  -->
+
+<resources>
+    <string name="a_few_more_to_unlock">％1$d还可以点击！</string>
+    <string name="a_few_more_to_unlock_one">还有1个点击即可！</string>
+    <string name="action_clear_db">清除DB </string>
+    <string name="action_compose_message">撰写邮件</string>
+    <string name="action_notification_access">通知权限</string>
+    <string name="action_send_feedback">发送反馈</string>
+    <string name="action_settings">设置</string>
+    <string name="action_take_photo">拍照</string>
+    <string name="action_toggle_swipe"> Toggle Swipe </string>
+    <string name="advanced_settings">高级设置</string>
+    <string name="app_name"> NoticeDog </string>
+    <string name="build_type"> release </string>
+    <string name="clear_all">全部清除</string>
+    <string name="com_mixpanel_android_close">关闭</string>
+    <string name="com_mixpanel_android_done">完成</string>
+    <string name="com_mixpanel_android_exit">退出</string>
+    <string name="com_mixpanel_android_logo">按Mixpanel </string>
+    <string name="com_mixpanel_android_next">下一个问题</string>
+    <string name="com_mixpanel_android_notification_image">图像不显示</string>
+    <string name="com_mixpanel_android_previous">上一个问题</string>
+    <string name="debug_unlocked_success"> Hooray！调试模式解锁！</string>
+    <string name="drag_to_reorder">拖动应用排序</string>
+    <string name="dummy_message_four"> Happy NoticeDoging！</string>
+    <string name="dummy_message_one">"欢迎使用NoticeDog，你可以从这儿看到从你的社交应用发出的全部消息。"</string>
+    <string name="dummy_message_three">有任何反馈或问题吗？点击这里给我们发送消息！</string>
+    <string name="dummy_message_two">是的，欢迎！ BTW - 您可以滑动消息使其消失。</string>
+    <string name="dummy_person_four"> NoticeDog团队</string>
+    <string name="dummy_person_one"> Janey Drake </string>
+    <string name="dummy_person_three"> Lauren Michaelson </string>
+    <string name="dummy_person_two"> Valentina Green </string>
+    <string name="entry_of_from">${sender} </string>
+    <string name="entry_of_from_group"> ${group}</string>
+    <string name="entry_of_group_add_member">${sender}：邀请${member}到组</string>
+    <string name="entry_of_group_edit_name">"${sender}：更改组的名称"</string>
+    <string name="entry_of_group_edit_photo">"${sender}：更改了组的照片"</string>
+    <string name="entry_of_group_invited_you">${sender}：邀请您加入群组</string>
+    <string name="entry_of_group_invited_you_and_sentmsg">${sender}：邀请您加入群组并发送邮件</string>
+    <string name="entry_of_group_kick_member">${sender}：从组中删除${member} </string>
+    <string name="entry_of_group_kick_you">${sender}：将您从组中删除</string>
+    <string name="entry_of_group_member_left">${sender}：离开组</string>
+    <string name="entry_of_group_message_audio">${sender}：发送音频消息</string>
+    <string name="entry_of_group_message_contact">${sender}：发送了一个联系人</string>
+    <string name="entry_of_group_message_document">${sender}：发送文档</string>
+    <string name="entry_of_group_message_liked_photo">${sender}：喜欢你的照片</string>
+    <string name="entry_of_group_message_map">${sender}：共享一个位置</string>
+    <string name="entry_of_group_message_notext">${sender}：发送消息</string>
+    <string name="entry_of_group_message_photo">${sender}：发送照片</string>
+    <string name="entry_of_group_message_sticker">${sender}：发送贴纸</string>
+    <string name="entry_of_group_message_text">${sender}：${message} </string>
+    <string name="entry_of_group_message_video">${sender}：发送视频</string>
+    <string name="entry_of_group_message_voice_note">${sender}：发送语音留言</string>
+    <string name="entry_of_invited_to_group">邀请您加入群组"${group"\"</string>
+    <string name="entry_of_joined_group">加入组\"${group}\"</string>
+    <string name="entry_of_message_audio">发送音频消息</string>
+    <string name="entry_of_message_calendar_appointment">sent a calendar appointment</string>
+    <string name="entry_of_message_contact">发送一个联系人</string>
+    <string name="entry_of_message_document">发送一个文档</string>
+    <string name="entry_of_message_favorite">将您添加为收藏夹</string>
+    <string name="entry_of_message_file">发送一个文件</string>
+    <string name="entry_of_message_gift">发送礼物</string>
+    <string name="entry_of_message_liked_photo">喜欢你的照片</string>
+    <string name="entry_of_message_map">共享位置</string>
+    <string name="entry_of_message_multimedia">发送了多媒体剪辑</string>
+    <string name="entry_of_message_new_waiting">你有新消息等待</string>
+    <string name="entry_of_message_notext">发送消息</string>
+    <string name="entry_of_message_photo">发送了一张照片</string>
+    <string name="entry_of_message_sticker">发送贴纸</string>
+    <string name="entry_of_message_text">${message}</string>
+    <string name="entry_of_message_video">发送视频</string>
+    <string name="entry_of_message_voice_note">发送了语音备注</string>
+    <string name="give_feedback_button_text">分享反馈</string>
+    <string name="give_feedback_description">我们如何使NoticeDog更好？向我们发送您的想法。</string>
+    <string name="groupme_entry_of_group_message_liked_location"> ${sender}：喜欢你的位置\"${location}\"</string>
+    <string name="groupme_entry_of_group_message_liked_message"> ${sender}：喜欢你的消息\"${message} \"</string>
+    <string name="groupme_entry_of_message_addedtogroup">"您已经添加到组\"${group} \"with ${members}"</string>
+    <string name="groupme_entry_of_message_liked_location">喜欢你的位置\"${location}\"</string>
+    <string name="groupme_entry_of_message_liked_message">喜欢你的消息\"${message} \"</string>
+    <string name="header_apps">应用</string>
+    <string name="header_debug">Debug</string>
+    <string name="header_general">通用设置</string>
+    <string name="header_permissions">权限</string>
+    <string name="header_version">版本</string>
+    <string name="hike_entry_of_message_favorite_request_details">you can now see my last seen and status updates</string>
+    <string name="hike_entry_of_message_friend_request">added you as a friend</string>
+    <string name="hike_entry_of_message_friend_request_accepted">you will now start seeing my updates</string>
+    <string name="hike_entry_of_message_joined_hike">I just joined Hike!</string>
+    <string name="hike_entry_of_message_update">posted an update ${update}</string>
+    <string name="inbox_no_messages">没有新消息.</string>
+    <string name="inbox_no_messages_detail">"When you receive a new message from any of your mobile messaging apps we'll let you know."</string>
+    <string name="inbox_no_new_messages">没有新消息</string>
+    <string name="inbox_thread_collapse">关闭</string>
+    <string name="inbox_thread_expand">%1$d 条消息</string>
+    <string name="inbox_thread_expand_one">1 条消息</string>
+    <string name="inbox_welcome_message">Welcome to NoticeDog!</string>
+    <string name="inbox_welcome_message_detail">"恭喜! 您已经设置完毕.
+
+        当您收到消息时，他们将在下面显示如下。"</string>
+    <string name="kik_entry_of_from_app">Kik</string>
+    <string name="kik_entry_of_message_new">有一条新消息.</string>
+    <string name="kik_entry_of_message_one_unread_conversation">您有一个新的回话未读.</string>
+    <string name="kik_entry_of_message_unread_conversations">您收到一条新消息。您有${unreadCount}与未读邮件的会话。</string>
+    <string name="lockscreen_inbox_unlock_message">解锁查看你的消息</string>
+    <string name="lockscreen_more_messages"> +％1$d条消息</string>
+    <string name="lockscreen_more_messages_one"> + 1条消息e </string>
+    <string name="lockscreen_tap_to_view">点击查看</string>
+    <string name="lockscreen_unlock_to_continue">解锁继续操作</string>
+    <string name="migrate_popup_explanation">"NoticeDog已经改变了！触摸这里查看新功能。"</string>
+    <string name="migrate_title"> NoticeDog有一个新的家！</string>
+    <string name="no_give_feedback_button_text">不是现在</string>
+    <string name="no_review_button_text">不，谢谢。</string>
+    <string name="oob_awesome"> Awesome！</string>
+    <string name="oob_close_drawer_explanation">"完成后可以随时关闭NoticeDog。"</string>
+    <string name="oob_empty_string"/>
+    <string name="oob_enable_notification_access"> TURN ON NoticeDog </string>
+    <string name="oob_enter_code_error">需要一个有效的6个字符邀请代码。</string>
+    <string name="oob_enter_code_explanation">输入您在电子邮件中收到的邀请码。</string>
+    <string name="oob_enter_code_hint"> 6个字符代码</string>
+    <string name="oob_enter_invite_code">输入代码</string>
+    <string name="oob_enter_invite_code_error">"我们无法处理您的邀请代码！请重试。"</string>
+    <string name="oob_enter_invite_code_failure">您的邀请代码无效。请尝试其他代码。</string>
+    <string name="oob_enter_invite_code_success">"您的邀请请求成功，我们会尽快给您发送邀请代码！"</string>
+    <string name="oob_fabulous">非常好！</string>
+    <string name="oob_inbox_explanation">来自所有应用程序的消息将显示在NoticeDog中。</string>
+    <string name="oob_next"> NEXT </string>
+    <string name="oob_notification_access_action">点击TURN ON NoticeDog按钮，然后检查NoticeDog，如下所示。</string>
+    <string name="oob_notification_access_explanation"> NoticeDog需要访问您的邮件才能将其放入收件箱。</string>
+    <string name="oob_one_more_step">"最后，完成之前还有一个步骤。"</string>
+    <string name="oob_perfect">完美！</string>
+    <string name="oob_popout_tab_action">点击NoticeDog查看您的消息。</string>
+    <string name="oob_popout_tab_explanation">收到新消息时，将出现"NoticeDog"。</string>
+    <string name="oob_popout_tab_explanation_shade_notification_test">当您收到新消息时，它将显示在NoticeDog中。</string>
+    <string name="oob_pullout_shade_all_the_way">将NoticeDog收件箱一直拉下！</string>
+    <string name="oob_pullout_shade_explanation">从下面的手机的上角拉出来看NoticeDog收件箱。</string>
+    <string name="oob_pullout_shade_keep_pulling">继续拉！</string>
+    <string name="oob_request_invite">请求INVITE </string>
+    <string name="oob_request_invite_failure">"我们无法处理您的邀请请求！请重试。"</string>
+    <string name="oob_requesting_invite_title">请求邀请</string>
+    <string name="oob_select_email_adddress_error">需要有效的电子邮件地址才能请求邀请。</string>
+    <string name="oob_select_email_adddress_explanation">"输入您的电子邮件，我们会在您收到邀请后发送邀请。"</string>
+    <string name="oob_select_email_adddress_hint"> name@address.com </string>
+    <string name="oob_startup_spinner">载入NoticeDog... </string>
+    <string name="oob_submit"> SUBMIT </string>
+    <string name="oob_success"> SUCCESS！</string>
+    <string name="oob_tab_hide_explanation">当您没有新消息时，NoticeDog将不可用。</string>
+    <string name="oob_tab_swipe_to_reveal_explanation">滑动NoticeDog让它回来。</string>
+    <string name="oob_tutorial_explanation">"让我们开始说明NoticeDog如何运作！"</string>
+    <string name="oob_welcome_explanation">将会话集合在一起...从所有的社交应用程序</string>
+    <string name="oob_welcome_title"> NoticeDog </string>
+    <string name="permissions_notification_text">点击设置通知权限</string>
+    <string name="permissions_notification_title"> NoticeDog需要通知权限</string>
+    <string name="persistent_notification_text">激活</string>
+    <string name="persistent_notification_title"> NoticeDog </string>
+    <string name="persistent_notification_with_messages_text">有新的消息等待查看。</string>
+    <string name="pull_from_here">下拉可以查看您的消息</string>
+    <string name="quick_launch_settings_description"> SelectQuick快速启动应用程序</string>
+    <string name="quick_launch_settings_dialog_none">无</string>
+    <string name="quick_launch_settings_dialog_title">选择一个应用</string>
+    <string name="settings">设置</string>
+    <string name="skype_entry_of_from_unknown">未知发件人</string>
+    <string name="skype_entry_of_message_multiple">${message} </string>
+    <string name="slack_entry_of_from">\@${sender} </string>
+    <string name="slack_entry_of_from_group"> \＃${group}</string>
+    <string name="slack_entry_of_from_private_group"> ${group}</string>
+    <string name="slack_entry_of_group_message_text">\ @${sender}：${message} </string>
+    <string name="slack_entry_of_message_text">${message}</string>
+    <string name="snapchat_multiple_senders">多个发件人</string>
+    <string name="snapchat_new_message"> New Snap！</string>
+    <string name="summary_enable_headsup_notification">收到新消息时显示屏幕上的通知</string>
+    <string name="summary_enable_left_handed_mode">从左上角拉NoticeDog，而不是右上角</string>
+    <string name="summary_enable_lock_screen">"在手机锁屏上显示您的短信应用的最新消息"</string>
+    <string name="summary_enable_shade_vibration">帮助您了解哪里可以打开NoticeDog </string>
+    <string name="summary_enabled_apps">选择NoticeDog使用的应用</string>
+    <string name="summary_notification_permission">启用NoticeDog功能的Android通知访问功能</string>
+    <string name="summary_notifications_in_drawer">在标准Android通知抽屉中保留来自您的邮件应用的通知</string>
+    <string name="summary_private_policy">查看NoticeDog隐私政策</string>
+    <string name="summary_quick_launch_apps">选择在NoticeDog中显示的应用程序快捷键</string>
+    <string name="summary_remote_logging">定期向NoticeDog服务器发送诊断信息，以帮助排除问题</string>
+    <string name="summary_send_diagnostics">将一次性诊断信息发送到NoticeDog服务器以帮助排除问题</string>
+    <string name="summary_statusbar_visibility">选择NoticeDog状态栏何时通知您</string>
+    <string name="summary_tab_visibility">选择"NoticeDog"选项卡是否可见</string>
+    <string name="title_activity_oob">欢迎使用NoticeDog </string>
+    <string name="title_activity_settings">设置</string>
+    <string name="title_build"> Build </string>
+    <string name="title_enable_headsup_notification">抬头通知</string>
+    <string name="title_enable_left_handed_mode">左手模式</string>
+    <string name="title_enable_lock_screen">锁屏</string>
+    <string name="title_enable_shade_vibration">震动已开启</string>
+    <string name="title_enabled_apps">启用的应用</string>
+    <string name="title_notification_permission">通知权限设定</string>
+    <string name="title_notifications_in_drawer">抽屉中的通知</string>
+    <string name="title_quick_launch_apps">应用快捷方式</string>
+    <string name="title_statusbar_visibility">NoticeDog状态栏</string>
+    <string name="title_tab_visibility"> NoticeDog选项卡</string>
+    <string name="twitter_entry_of_message_favorited">赞成：${tweet} </string>
+    <string name="twitter_entry_of_message_follow_request">请求跟随你</string>
+    <string name="twitter_entry_of_message_followed">跟着你</string>
+    <string name="twitter_entry_of_message_photo_tag">在你的照片中标记你</string>
+    <string name="twitter_entry_of_message_retweeted"> retweeted：${tweet} </string>
+    <string name="twitter_entry_of_message_tweeted">推文：${tweet} </string>
+    <string name="unread_notification_more"> +%1$d more messages </string>
+    <string name="unread_notification_more_one"> +%1$d more message </string>
+    <string name="unread_notification_new">%1$d new messages </string>
+    <string name="unread_notification_new_more">%1$d +新消息</string>
+    <string name="unread_notification_new_one">%1$d新消息</string>
+    <string name="unread_notification_title">%1$d新消息</string>
+</resources>
