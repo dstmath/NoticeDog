@@ -318,14 +318,7 @@ public class SettingsActivity extends PreferenceActivity {
             buildPreference.setSummary(String.format("Version: %s\nBuild Number: %s", new Object[]{BuildConfig.VERSION_NAME, "123"}));
             buildPreference.setOnPreferenceClickListener(new OnPreferenceClickListener() {
                 public boolean onPreferenceClick(Preference preference) {
-                    if (!GeneralFragment.this.debugUnlocked) {
-                        GeneralFragment generalFragment = GeneralFragment.this;
-                        generalFragment.debugUnlockCount++;
-                        if (GeneralFragment.this.debugUnlockCount >= 10) {
-                            GeneralFragment.this.unlockDebug();
-                        }
-                        GeneralFragment.this.showDebugUnlockToast();
-                    }
+
                     return true;
                 }
             });
@@ -333,42 +326,7 @@ public class SettingsActivity extends PreferenceActivity {
 
         }
 
-        void showDebugUnlockToast() {
-            int stepsLeft = 10 - this.debugUnlockCount;
-            Toast toast = null;
-            if (stepsLeft == 0) {
-                toast = Toast.makeText(getActivity(), R.string.debug_unlocked_success, 0);
-            } else if (stepsLeft == 1) {
-                toast = Toast.makeText(getActivity(), R.string.a_few_more_to_unlock_one, 0);
-            } else if (stepsLeft <= 7) {
-                toast = Toast.makeText(getActivity(), String.format(getActivity().getResources().getString(R.string.a_few_more_to_unlock), new Object[]{Integer.valueOf(stepsLeft)}), 0);
-            }
-            if (toast != null) {
-                toast.show();
-            }
-        }
 
-        void unlockDebug() {
-            this.debugUnlocked = true;
-            ((Settings) GuiceModule.get().getInstance(Settings.class)).volatileUpdateShowDebugSettings(true);
-            addDebugCategory();
-        }
 
-        void addDebugCategory() {
-            addPreferencesFromResource(R.xml.settings_debug);
-            CheckBoxPreference remoteLoggingPreference = (CheckBoxPreference) findPreference("enable_remote_logging");
-            remoteLoggingPreference.setChecked(false);
-            remoteLoggingPreference.setOnPreferenceClickListener(new OnPreferenceClickListener() {
-                public boolean onPreferenceClick(Preference preference) {
-                    TwoStatePreference checkbox = (TwoStatePreference) preference;
-                    return true;
-                }
-            });
-            findPreference("send_diagnostics").setOnPreferenceClickListener(new OnPreferenceClickListener() {
-                public boolean onPreferenceClick(Preference preference) {
-                    return true;
-                }
-            });
-        }
     }
 }
