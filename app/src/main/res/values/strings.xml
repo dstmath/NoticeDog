@@ -182,7 +182,6 @@
     <string name="advanced_settings">Advanced settings</string>
     <string name="app_name">NoticeDog</string>
     <string name="clear_all">Clear all</string>
-    <string name="debug_unlocked_success">Hooray! Debug mode unlocked!</string>
     <string name="drag_to_reorder">Drag to reorder</string>
     <string name="dummy_message_four">Happy NoticeDoging!</string>
     <string name="dummy_message_one">"Welcome to NoticeDog! You'll see new messages from all your social apps here."</string>
@@ -240,7 +239,6 @@
     <string name="groupme_entry_of_message_liked_location">liked your location \"${location}\"</string>
     <string name="groupme_entry_of_message_liked_message">liked your message \"${message}\"</string>
     <string name="header_apps">Apps</string>
-    <string name="header_debug">Debug</string>
     <string name="header_general">General</string>
     <string name="header_permissions">Permissions</string>
     <string name="header_privacy">Privacy</string>

@@ -189,7 +189,6 @@
     <string name="com_mixpanel_android_next">下一个问题</string>
     <string name="com_mixpanel_android_notification_image">图像不显示</string>
     <string name="com_mixpanel_android_previous">上一个问题</string>
-    <string name="debug_unlocked_success"> Hooray！调试模式解锁！</string>
     <string name="drag_to_reorder">拖动应用排序</string>
     <string name="dummy_message_four"> Happy NoticeDoging！</string>
     <string name="dummy_message_one">"欢迎使用NoticeDog，你可以从这儿看到从你的社交应用发出的全部消息。"</string>
@@ -247,7 +246,6 @@
     <string name="groupme_entry_of_message_liked_location">喜欢你的位置\"${location}\"</string>
     <string name="groupme_entry_of_message_liked_message">喜欢你的消息\"${message} \"</string>
     <string name="header_apps">应用</string>
-    <string name="header_debug">Debug</string>
     <string name="header_general">通用设置</string>
     <string name="header_permissions">权限</string>
     <string name="header_version">版本</string>
@@ -345,8 +343,6 @@
     <string name="summary_notifications_in_drawer">在标准Android通知抽屉中保留来自您的邮件应用的通知</string>
     <string name="summary_private_policy">查看NoticeDog隐私政策</string>
     <string name="summary_quick_launch_apps">选择在NoticeDog中显示的应用程序快捷键</string>
-    <string name="summary_remote_logging">定期向NoticeDog服务器发送诊断信息，以帮助排除问题</string>
-    <string name="summary_send_diagnostics">将一次性诊断信息发送到NoticeDog服务器以帮助排除问题</string>
     <string name="summary_statusbar_visibility">选择NoticeDog状态栏何时通知您</string>
     <string name="summary_tab_visibility">选择"NoticeDog"选项卡是否可见</string>
     <string name="title_activity_oob">欢迎使用NoticeDog </string>
